@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cjggcul0fbem1"]
+
+[ext_resource type="Texture2D" uid="uid://2l24ksotghvo" path="res://Untitled 11-21-2026 02-38-49.png" id="1_6or3w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0kp72"]
+size = Vector2(129, 131)
+
+[node name="mor" type="RigidBody2D" unique_id=1627769300]
+position = Vector2(0.00012207031, 1.5258789e-05)
+scale = Vector2(0.99999994, 0.99999994)
+gravity_scale = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=288933789]
+scale = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_0kp72")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1902319028]
+scale = Vector2(2.01, 2)
+texture = ExtResource("1_6or3w")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=471992653]
